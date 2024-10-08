@@ -12,7 +12,7 @@ Authors:
 
 
 <div align=left>
-<img style="width:30%" src="./docs/total_framework.jpg">
+<img style="width:100%" src="./docs/total_framework.jpg">
 </div>
 
 Abstract:
@@ -22,7 +22,10 @@ Abstract:
 
 Motivation:
 
-![Motivation](./docs/motivation.jpg)
+<div align=left>
+<img style="width:30%" src="./docs/motivation.jpg">
+</div>
+
 
 UMTScore (↑) vs. UMT-FVD (↓) with Animatediff on Chronomagic-Bench-150. In the legend, "R", "I", and "V" represent the score function estimation using random Gaussian noise, IDM, and VDM, respectively. Moreover, the front of the horizontal line "-" refers to the additive noise form, while the back of "-" represents the denoising paradigm. For instance, "RR-II" stands for a two-step of adding noise with Guassian noise followed by two-step of denoising performed using IDM.
 
@@ -80,9 +83,9 @@ python ./lora/convert_lora_safetensor_to_diffusers.py --lora_path --checkpoint_p
         <tbody>
             <tr>
                 <td><img src="./samples/Two horses race across a grassy field at sunset._Animatediff_standard.gif" alt="AnimateDiff (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/Two horses race across a grassy field at sunset._Animatediff_iv-mix.gif" alt="AnimateDiff (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/Two horses race across a grassy field at sunset._Animatediff_iv_mix.gif" alt="AnimateDiff (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
                 <td><img src="./samples/Two horses race across a grassy field at sunset._VideoCrafter_standard.gif" alt="VideoCrafter (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/Two horses race across a grassy field at sunset._VideoCrafter_iv-mix.gif" alt="VideoCrafter (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/Two horses race across a grassy field at sunset._VideoCrafter_iv_mix.gif" alt="VideoCrafter (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
             </tr>
             <tr style="border-bottom: 1px solid #ddd;">
                 <td style="padding: 2px 10px;">"Two horses race across a grassy field at sunset"</td>
@@ -98,9 +101,9 @@ python ./lora/convert_lora_safetensor_to_diffusers.py --lora_path --checkpoint_p
             </tr>
             <tr>
                 <td><img src="./samples/Two horses race across a grassy field at sunset._ModelScope_standard.gif" alt="ModelScope (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/Two horses race across a grassy field at sunset._ModelScope_iv-mix.gif" alt="ModelScope (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/Two horses race across a grassy field at sunset._ModelScope_iv_mix.gif" alt="ModelScope (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
                 <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._Animatediff_standard.gif" alt="Animatediff (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._Animatediff_iv-mix.gif" alt="Animatediff (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._Animatediff_iv_mix.gif" alt="Animatediff (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
             </tr>
             <tr style="border-bottom: 1px solid #ddd;">
                 <td style="padding: 2px 10px;">"Two horses race across a grassy field at sunset"</td>
@@ -116,9 +119,9 @@ python ./lora/convert_lora_safetensor_to_diffusers.py --lora_path --checkpoint_p
             </tr>
             <tr>
                 <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._VideoCrafter_standard.gif" alt="VideoCrafter (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._VideoCrafter_iv-mix.gif" alt="VideoCrafter (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._VideoCrafter_iv_mix.gif" alt="VideoCrafter (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
                 <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._ModelScope_standard.gif" alt="ModelScope (Standard)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._ModelScope_iv-mix.gif" alt="ModelScope (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/A snowy mountain peak, a lone skier carving through powder._ModelScope_iv_mix.gif" alt="ModelScope (IV-mixed Sampler)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
             </tr>
             <tr style="border-bottom: 1px solid #ddd;">
                 <td style="padding: 2px 10px;">"A snowy mountain peak, a lone skier carving through powder"</td>
@@ -150,9 +153,9 @@ python ./lora/convert_lora_safetensor_to_diffusers.py --lora_path --checkpoint_p
         <tbody>
             <tr>
                 <td><img src="./samples/masterpiece_standard.gif" alt="Standard" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/masterpiece_iv-mix_vanilla.gif" alt="IV-mixed Sampler (vanilla)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/masterpiece_iv-mix_amechass.gif" alt="IV-mixed Sampler (amechass)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
-                <td><img src="./samples/masterpiece_iv-mix_beauty.gif" alt="IV-mixed Sampler (beauty)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/masterpiece_iv_mix_vanilla.gif" alt="IV-mixed Sampler (vanilla)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/masterpiece_iv_mix_amechass.gif" alt="IV-mixed Sampler (amechass)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
+                <td><img src="./samples/masterpiece_iv_mix_beauty.gif" alt="IV-mixed Sampler (beauty)" style="width: 235px; height: 235px; padding: 5px 10px;"></td>
             </tr>
             <tr style="border-bottom: 1px solid #ddd;">
                 <td style="padding: 2px 10px;">"masterpiece, best quality,realistic,(realskin:1.5),1girl,school,longhair,no_bangs, side_view,looking at viewer,school uniform,realskin, softlight"</td>
