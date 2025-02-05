@@ -171,11 +171,13 @@ python ./lora/convert_lora_safetensor_to_diffusers.py --lora_path --checkpoint_p
 ## Citation
 
 ```bibtex
-@article{IV_mixed_Sampler,
-  title={IV-Mixed Sampler: Leveraging Image Diffusion Models for Enhanced Video Synthesis},
-  author={Shao, Shitong and Zhou, Zikai and Bai, Lichen and Xiong, Haoyi and Xie, Zeke},
-  journal={arXiv preprint arXiv:2410.04171},
-  year={2024}
+@inproceedings{
+shao2025ivmixed,
+title={{IV}-mixed Sampler: Leveraging Image Diffusion Models for Enhanced Video Synthesis},
+author={Shitong Shao and zikai zhou and Bai LiChen and Haoyi Xiong and Zeke Xie},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=ImpeMDJfVL}
 }
 ```
 
