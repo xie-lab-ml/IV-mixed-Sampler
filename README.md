@@ -4,6 +4,10 @@ Offical Implementation of our research:
 
 > [IV-Mixed Sampler: Leveraging Image Diffusion Models for Enhanced Video Synthesis](https://arxiv.org/abs/2410.04171) [CIRL 2025 🚀]  <br>
 
+Website page: 
+
+> https://klayand.github.io/IVmixedSampler
+
 Authors:
 
 ><em>Shitong Shao, Zikai Zhou, Lichen Bai, Haoyi Xiong, </em> and <em>Zeke Xie*</em> <br>
